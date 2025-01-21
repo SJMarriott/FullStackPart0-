@@ -1,0 +1,9 @@
+'''mermaid
+flowchart TD
+
+    A(New Note)-->B{Has the user inputted text?};
+    B--Yes!-->C[Save];
+    B--No!-->D[Do not save];
+    C---->E[Please add a note];
+    D---->F[Thank you!]
+'''
